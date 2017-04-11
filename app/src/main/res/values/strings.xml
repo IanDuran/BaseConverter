@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Base Converter</string>
+    <string name="decimal">Decimal</string>
+    <string name="binary">Binary</string>
+    <string name="hex">Hexadecimal</string>
+    <string name="input">Number to convert</string>
+    <string name="convert">Convert</string>
+</resources>

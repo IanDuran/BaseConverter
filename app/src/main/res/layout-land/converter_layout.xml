@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtInput"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentTop="true"/>
+
+    <EditText
+        android:id="@+id/editInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:inputType="text"
+        android:layout_below="@id/txtInput"/>
+
+    <TextView
+        android:id="@+id/txtFirstTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editInput"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:id="@+id/txtFirstOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtFirstTitle"
+        android:layout_marginBottom="16dp"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/txtSecondTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtFirstOut"
+        android:layout_marginBottom="8dp"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/txtSecondOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSecondTitle"
+        android:layout_marginBottom="16dp"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="6dp"
+        android:text="@string/convert"/>
+
+</RelativeLayout>
